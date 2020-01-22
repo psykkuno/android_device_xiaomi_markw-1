@@ -16,10 +16,10 @@
 
 $(call inherit-product, device/xiaomi/markw/full_markw.mk)
 
-# Inherit some common Mokee stuff.
-$(call inherit-product, vendor/mk/config/common_full_phone.mk)
+# Inherit some common Validus stuff.
+$(call inherit-product, vendor/validus/config/common_full_phone.mk)
 
-PRODUCT_NAME := mk_markw
+PRODUCT_NAME := validus_markw
 BOARD_VENDOR := Xiaomi
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
